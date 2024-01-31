@@ -1,0 +1,36 @@
+{
+  "name": "@stafftastic/sentry-integration-analytics",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "module": "./dist/sentry-integration-analytics.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/sentry-integration-analytics.es.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stafftastic/sentry-integration-analytics.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@sentry/browser": "^7.99.0",
+    "@sentry/core": "^7.99.0",
+    "@sentry/types": "^7.99.0",
+    "analytics": "^0.8.9",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.2"
+  }
+}

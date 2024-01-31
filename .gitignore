@@ -1,0 +1,9 @@
+/.direnv
+/dist
+.vscode
+
+.DS_Store
+node_modules
+.env
+.npmrc
+tsconfig.tsbuildinfo
